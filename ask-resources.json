@@ -2,12 +2,18 @@
   "askcliResourcesVersion": "2020-03-31",
   "profiles": {
     "adrianosotos": {
-      "skillMetadata": { "src": "./skill-package" },
-      "code": { "default": { "src": "lambda/custom" } },
+      "skillMetadata": {
+        "src": "./skill-package"
+      },
+      "code": {
+        "default": {
+          "src": "lambda/custom"
+        }
+      },
       "skillInfrastructure": {
         "type": "@ask-cli/lambda-deployer",
         "userConfig": {
-          "awsRegion": {},
+          "awsRegion": "us-east-1",
           "runtime": "nodejs16.x",
           "handler": "index.handler"
         }

@@ -9,13 +9,23 @@
             "Alexa quais as condições do surf",
             "Alexa como estará o surf amanhã"
           ],
-          "keywords": ["surf", "mar", "ondas"],
+          "keywords": [
+            "surf",
+            "mar",
+            "ondas"
+          ],
           "name": "Surf Report Brasil",
           "description": "Pergunte por Fatos Espaciais e aprenda sobre o que interessa, como matéria escura.\n\nA skill Fatos Espaciais proporciona divertimento para toda família e certamente fará você mais inteligente. \n\nPara iniciar, apenas fale \"Alexa, iniciar Fatos Espaciais\" ou \"Alexa, abrir Fatos Espaciais\" para receber um fato\".\n\nA qualquer momento, você pode dizer \"Alexa, pare\""
         }
       }
     },
-    "apis": { "custom": {} },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:683546657007:function:ask-surfreportbrasil-adrianosotos-default-1711321997291"
+        }
+      }
+    },
     "manifestVersion": "1.0"
   }
 }
